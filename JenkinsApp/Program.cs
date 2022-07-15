@@ -1,5 +1,5 @@
 ﻿using System;
-using MyMaths;
+using MyMaths2;
 
 namespace JenkinsApp
 {

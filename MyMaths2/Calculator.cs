@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyMaths
+namespace MyMaths2
 {
     public class Calculator
     {
