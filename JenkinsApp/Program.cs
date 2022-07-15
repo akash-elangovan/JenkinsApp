@@ -17,6 +17,7 @@ namespace JenkinsApp
 
             Console.WriteLine($"Adding = {calc.Add(x, y)}");
             Console.WriteLine($"Mulitplying = {calc.Multiply(x, y)}");
+            Console.ReadLine();
         }
     }
 }
