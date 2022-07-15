@@ -1,4 +1,5 @@
 ﻿using System;
+using MyMaths;
 
 namespace JenkinsApp
 {
@@ -8,8 +9,14 @@ namespace JenkinsApp
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Welcome to Jenkins");
-            Console.WriteLine("Press a button to end the application");
-            Console.ReadLine();
+
+            Calculator calc = new Calculator();
+            Console.WriteLine("Enter two numbers");
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Adding = {calc.Add(x, y)}");
+            Console.WriteLine($"Mulitplying = {calc.Multiply(x, y)}");
         }
     }
 }
