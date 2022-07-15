@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JenkinsApp", "JenkinsApp\JenkinsApp.csproj", "{D97E3D20-E787-4C7B-89EE-8CA623CB567B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE5C22C2-0277-4878-A2CB-9C56AC368EE9} = {EE5C22C2-0277-4878-A2CB-9C56AC368EE9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMaths", "MyMaths2\MyMaths.csproj", "{EE5C22C2-0277-4878-A2CB-9C56AC368EE9}"
 EndProject
