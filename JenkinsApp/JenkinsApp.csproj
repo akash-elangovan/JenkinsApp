@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\MyMaths\MyMaths\MyMaths.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="MyMaths">
       <HintPath>..\..\MyMaths\MyMaths\bin\Debug\netcoreapp3.1\MyMaths.dll</HintPath>
     </Reference>
