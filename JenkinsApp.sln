@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JenkinsApp", "JenkinsApp\Je
 		{EE5C22C2-0277-4878-A2CB-9C56AC368EE9} = {EE5C22C2-0277-4878-A2CB-9C56AC368EE9}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMaths2", "MyMaths2\MyMaths2.csproj", "{EE5C22C2-0277-4878-A2CB-9C56AC368EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMaths2", "MyMaths2\MyMaths2.csproj", "{EE5C22C2-0277-4878-A2CB-9C56AC368EE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
